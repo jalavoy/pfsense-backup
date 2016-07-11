@@ -10,12 +10,12 @@ import re
 import gzip
 
 # EDIT BELOW OPTIONS TO SUIT YOUR ENVIRONMENT
-user = 'admin' # pfsense login name - make sure this user has permission to dump backups 
-passwd = 'somepassword' # the above users password
-backupdir = '/some/directory' # where you want backups to be stored
-ip_address = '10.1.1.1' # the IP address of the pfsense server
-retention_time = 30 # how long in days to keep old backups
-compression = 0 # whether or not you want the dumps compressed after dumping
+USER = 'admin' # pfsense login name - make sure this user has permission to dump backups 
+PASSWORD = 'somepassword' # the above users password
+BACKUPDIR = '/some/directory' # where you want backups to be stored
+HOST = '10.1.1.1' # the IP address of the pfsense server
+RETENTION_DAYS = 30 # how long in days to keep old backups
+COMPRESSION = 0 # whether or not you want the dumps compressed after dumping
 # STOP EDITS
 
 NOW = int(time.time())
