@@ -7,10 +7,14 @@ sudo add-apt-repository ppa:fkrull/deadsnakes
 sudo apt-get update
 sudo apt-get install python2.7
 ```
-* python mechanize 
+* python mechanize
 ```bash
 sudo apt-get install python-pip
 pip install mechanize
+```
+or
+```bash
+sudo apt-get install python-mechanize
 ```
 
 I had a perl script to do this on 2.2, but since the update it hasn't worked. So I decided to start over with a language I'm not as familiar with.
